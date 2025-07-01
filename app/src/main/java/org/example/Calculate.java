@@ -1,11 +1,11 @@
 package org.example;
 
 public class Calculate {
-  public int Sum(int x, int y) {
+  public int sum(int x, int y) {
     return x + y;
   }
 
-  public double Average(int sum, int num) {
+  public double average(int sum, int num) {
     if (num != 0) {
       return (double) sum / num;
     } else {
@@ -13,7 +13,7 @@ public class Calculate {
     }
   }
 
-  public int SumBetween(int start, int end) {
+  public int sumBetween(int start, int end) {
     if (start > end) {
       int tmp = start;
       start = end;
@@ -27,7 +27,7 @@ public class Calculate {
     return sum;
   }
 
-  public int OddSumBetween(int start, int end) {
+  public int oddSumBetween(int start, int end) {
     if (start > end) {
       int tmp = start;
       start = end;
@@ -43,7 +43,7 @@ public class Calculate {
     return sum;
   }
 
-  public int EvenSumBetween(int start, int end) {
+  public int evenSumBetween(int start, int end) {
     if (start > end) {
       int tmp = start;
       start = end;
